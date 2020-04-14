@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lilla Petri</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="nav.css"/>
+  <link rel="stylesheet" type="text/css" href="sections.css"/>
+  <link rel="stylesheet" type="text/css" href="arrow.css"/>
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+
+
+<nav id="nav" class="navbar navbar-expand-sm">
+  <div class="navbar-nav">
+    <a href="javascript:void(0);" id="toggler" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    <a href="#about" class="nav-links nav-item">about</a>
+    <a href="#projects" class="nav-links nav-item">projects</a>
+    <a href="https://github.com/lillapetri" target="_blank" class="nav-links nav-item">github <i class="fa fa-github"></i></a>
+    <a href="#contact" class="nav-links nav-item">contact</a>
+  </div>
+</nav>
+
+
+
+<button onclick="topFunction()" id="myBtn">Top</button> 
+
+<div id="intro" class="row my-auto">
+  <div col-md-8>
+  <h1>hi. my name is <br><span id="name">lilla petri</span></h1>
+  <h3>and i started to learn programming <span id="days"></span> days ago!</h3> 
+  <br>
+    <div class="arrow bounce">
+    <a class="fa fa-arrow-down fa-2x" href="#"></a>
+    </div>
+  </div>
+</div>
+<br><br>
+<div class="row m-2"> 
+  <div id="about" class="container col-md-8 p-2 mr-4">
+    <h2>about <span id="me"> me</span></h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div> 
+</div>
+
+<div class="row m-2">
+  <div id="projects" class="container col-md-8 p-3 m-4 justify-content-center">
+    <h2><span id="pr">pr</span>ojects</h2>
+    <p>press any letter and turn on the sound! I made this project during the online Udemy course "The Web Developer Bootcamp" <em>(Colt Steele)</em>.</p>
+    <iframe height="400px" width="100%" frameBorder="0" src=".\patatapClone\index.html"></iframe> 
+    <br>  
+    <p><em>... I'll upload more projects soon. till then, check out my github if you're interested! <a href="https://github.com/lillapetri" target="_blank"><i class="fa fa-github"></i></a></em></p>
+  </div>
+</div>
+
+<div class="row m-2">
+   <div id="skills" class="container col-md-6 p-2 mr-4">
+
+    <h2><span id="sk">sk</span>ills</h2>
+     
+      <ul>
+        <li>Python</li>
+        <li>Javascript and jQuery</li>
+        <li>CSS3</li>
+        <li>HTML5</li>
+        <li>Bootstrap 4</li>
+        <li>Express</li>
+        <li>Node.js</li>
+        <li>Git</li>
+        <li>SQL</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+      </ul>
+     
+      <p>I also have some experience with Django and React and currently learning to use these frameworks.</p>
+  </div>
+</div>
+ 
+<div class="row m-2">
+  <div id="hobbies" class="container col-md-4 p-2 mx-auto">
+  <h2>h<span id="obbies">obbies</span></h2>
+  <ul>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+    <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+  </ul>
+  </div>
+</div>
+<footer id="contact" class="row justify-content-around container-fluid">
+  <div class="col-sm-4 p-2">The Hague, The Netherlands <i class="fa fa-map-marker"></i></div>
+  <div class="col-sm-4 p-2">+31 888 888 888 <i class="fa fa-phone"></i></div>
+  <div class="col-sm-4 p-2"><a>pelvaaf@gmail.com <i class="fa fa-envelope"></i></a></div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
