@@ -1,0 +1,18 @@
+a { color: white; text-decoration: none; }
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+
+
+
+.bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-3.5rem); }
+  100% { transform: translateY(0); }
+}
+

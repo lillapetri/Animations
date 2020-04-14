@@ -1,0 +1,103 @@
+#intro {
+  padding: 100px 50px 40px 50px;
+  height: 100vh;
+  text-align: center;
+  color: #3D2C68;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.7);
+
+}
+
+#name {
+  color: #ebf6f7;
+}
+
+
+#name {
+  opacity: 0.0;
+  position: relative;
+  animation: slide 3s 1;
+  animation-delay: 300ms;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes slide {
+  from {
+    margin-left: 0%;   
+    opacity: 0.0; 
+  }
+
+  to {
+    margin-left: 30%;
+    opacity: 1;
+  }
+}
+
+
+.container-fluid {
+  width: 100%;
+  text-align: center;
+  margin: 0px !important;
+}
+
+.container:hover {
+  border-radius: 120px;
+}
+
+#about, #projects, #hobbies, #skills {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  opacity: 0;
+  transition-duration: 500ms;
+}
+
+
+#about{
+  background-color: #16468B;
+
+}
+#projects { 
+  background-color: #6b238f;
+}
+
+#skills {
+  background-color: #4E71E0;
+}
+
+#hobbies {
+  background-color: #251783;
+}
+
+#contact {
+  width: 100%;
+  margin-top: 40px;
+  background-color: #020112;
+}
+
+#me {
+	background-color: #6B238F;
+	padding-left: 0.5rem;
+	padding-right: 3.5rem;
+}
+
+#pr {
+	background-color: #251783;
+	padding-left: 4rem;
+	padding-top: 3rem;
+}
+
+#sk {
+	background-color: #060419;
+	padding-top: 4rem;
+}
+
+#obbies {
+	background-color: #6081E3;
+	padding-right: 2rem;
+}
+
+#me, #pr, #sk, #obbies {
+	text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
