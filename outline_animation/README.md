@@ -1,0 +1,1 @@
+Preview here: <a href="https://htmlpreview.github.io/?https://github.com/lillapetri/Animations/blob/master/outline_animation/index.html" target="_blank">https://htmlpreview.github.io/?https://github.com/lillapetri/Animations/blob/master/outline_animation/index.html</a>
